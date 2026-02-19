@@ -118,6 +118,28 @@ th {
   object-fit: cover;
 }
 
+section {
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+h2 {
+  font-size: 26px;
+  color: #1f3c88;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+.gallery img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+
 @media (max-width: 768px) {
     .header-container {
         flex-direction: column;
